@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: royalblue;
+}
+
+.box-3mult {
+    background-color: green;
+}
+
+.box-5mult {
+    background-color: yellow;
+}
+
+.box-both {
+    background-color: red;
+}
